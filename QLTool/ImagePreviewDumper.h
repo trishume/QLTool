@@ -12,5 +12,6 @@
 
 + (NSString*)dataPreviewFor:(NSString*)path ofSize:(NSSize)size asIcon:(BOOL)icon;
 + (NSString*)terminalPreviewFor:(NSString*)path ofSize:(NSSize)size asIcon:(BOOL)icon;
++ (NSString *)resolvePath:(NSString *)path;
 
 @end

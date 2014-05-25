@@ -21,6 +21,7 @@
 		6AD8E73B1932271900A17ADF /* NSImage+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E73A1932271900A17ADF /* NSImage+QuickLook.m */; };
 		6AD8E73F1932277C00A17ADF /* ImagePreviewDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */; };
 		6AD8E74319322A2C00A17ADF /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E74219322A2C00A17ADF /* MF_Base64Additions.m */; };
+		6AD8E7471932397000A17ADF /* QLPreviewCont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E7461932397000A17ADF /* QLPreviewCont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewDumper.m; sourceTree = "<group>"; };
 		6AD8E74119322A2200A17ADF /* MF_Base64Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
 		6AD8E74219322A2C00A17ADF /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		6AD8E7451932397000A17ADF /* QLPreviewCont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLPreviewCont.h; sourceTree = "<group>"; };
+		6AD8E7461932397000A17ADF /* QLPreviewCont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLPreviewCont.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */,
 				6AD8E718193221E500A17ADF /* AppDelegate.h */,
 				6AD8E719193221E500A17ADF /* AppDelegate.m */,
+				6AD8E7451932397000A17ADF /* QLPreviewCont.h */,
+				6AD8E7461932397000A17ADF /* QLPreviewCont.m */,
 				6AD8E71B193221E500A17ADF /* MainMenu.xib */,
 				6AD8E71E193221E500A17ADF /* Images.xcassets */,
 				6AD8E70D193221E500A17ADF /* Supporting Files */,
@@ -280,6 +285,7 @@
 				6AD8E73F1932277C00A17ADF /* ImagePreviewDumper.m in Sources */,
 				6AD8E713193221E500A17ADF /* main.m in Sources */,
 				6AD8E73B1932271900A17ADF /* NSImage+QuickLook.m in Sources */,
+				6AD8E7471932397000A17ADF /* QLPreviewCont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

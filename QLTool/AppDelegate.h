@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "QLPreviewCont.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    QLPreviewCont *quickLookCont;
+    NSString *previewFile;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+- (void)keyDown:(NSEvent*)event;
 
 @end
