@@ -24,6 +24,8 @@ The path can be either absolute or relative but the app will hang if it is inval
 ./QLTool.app/Contents/MacOS/QLTool p "/Applications/iPhoto.app"
 ```
 
+![preview panel](http://cl.ly/image/091n1p1w2Q02/Image%202014-05-25%20at%2011.29.37%20AM.png)
+
 ### Printing Preview Image Data
 
 The `d` command generates quicklook preview images of any file and output the base64 encoded png data.
@@ -49,3 +51,5 @@ The syntax is the same as the `d` command except using `t`.
 # Example: This displays the icon preview data of somefile.png at size 100x120
 ./QLTool.app/Contents/MacOS/QLTool ti mydocument.txt 100 120
 ```
+
+![inline images](http://cl.ly/image/0V3z44132B3W/Image%202014-05-25%20at%2011.28.21%20AM.png)
