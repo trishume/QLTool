@@ -18,6 +18,9 @@
 		6AD8E727193221E500A17ADF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD8E706193221E500A17ADF /* Cocoa.framework */; };
 		6AD8E72F193221E500A17ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8E72D193221E500A17ADF /* InfoPlist.strings */; };
 		6AD8E731193221E500A17ADF /* QLToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E730193221E500A17ADF /* QLToolTests.m */; };
+		6AD8E73B1932271900A17ADF /* NSImage+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E73A1932271900A17ADF /* NSImage+QuickLook.m */; };
+		6AD8E73F1932277C00A17ADF /* ImagePreviewDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */; };
+		6AD8E74319322A2C00A17ADF /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8E74219322A2C00A17ADF /* MF_Base64Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		6AD8E72C193221E500A17ADF /* QLToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QLToolTests-Info.plist"; sourceTree = "<group>"; };
 		6AD8E72E193221E500A17ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AD8E730193221E500A17ADF /* QLToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLToolTests.m; sourceTree = "<group>"; };
+		6AD8E73A1932271900A17ADF /* NSImage+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+QuickLook.m"; sourceTree = "<group>"; };
+		6AD8E73C1932272000A17ADF /* NSImage+QuickLook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+QuickLook.h"; sourceTree = "<group>"; };
+		6AD8E73D1932277C00A17ADF /* ImagePreviewDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewDumper.h; sourceTree = "<group>"; };
+		6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewDumper.m; sourceTree = "<group>"; };
+		6AD8E74119322A2200A17ADF /* MF_Base64Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		6AD8E74219322A2C00A17ADF /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,9 @@
 		6AD8E70C193221E500A17ADF /* QLTool */ = {
 			isa = PBXGroup;
 			children = (
+				6AD8E74019322A0D00A17ADF /* Libraries */,
+				6AD8E73D1932277C00A17ADF /* ImagePreviewDumper.h */,
+				6AD8E73E1932277C00A17ADF /* ImagePreviewDumper.m */,
 				6AD8E718193221E500A17ADF /* AppDelegate.h */,
 				6AD8E719193221E500A17ADF /* AppDelegate.m */,
 				6AD8E71B193221E500A17ADF /* MainMenu.xib */,
@@ -152,6 +164,17 @@
 				6AD8E72D193221E500A17ADF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD8E74019322A0D00A17ADF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8E73C1932272000A17ADF /* NSImage+QuickLook.h */,
+				6AD8E73A1932271900A17ADF /* NSImage+QuickLook.m */,
+				6AD8E74119322A2200A17ADF /* MF_Base64Additions.h */,
+				6AD8E74219322A2C00A17ADF /* MF_Base64Additions.m */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD8E71A193221E500A17ADF /* AppDelegate.m in Sources */,
+				6AD8E74319322A2C00A17ADF /* MF_Base64Additions.m in Sources */,
+				6AD8E73F1932277C00A17ADF /* ImagePreviewDumper.m in Sources */,
 				6AD8E713193221E500A17ADF /* main.m in Sources */,
+				6AD8E73B1932271900A17ADF /* NSImage+QuickLook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +492,7 @@
 				6AD8E736193221E500A17ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AD8E737193221E500A17ADF /* Build configuration list for PBXNativeTarget "QLToolTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +501,7 @@
 				6AD8E739193221E500A17ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
